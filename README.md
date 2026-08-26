@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Veilmark
 
 Private proof, public confidence. Veilmark is a Midnight Network / Compact dApp concept for proving an eligibility claim without exposing the private information behind it.
