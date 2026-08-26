@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Veilmark
 
 Private proof, public confidence. Veilmark is a Midnight Network / Compact dApp concept for proving an eligibility claim without exposing the private information behind it.
@@ -36,12 +35,16 @@ The integration boundary is `src/midnight.ts`. Add the real Midnight SDK adapter
 
 Create a Google Form containing name, email, Lace wallet address, connection success, feature success, transaction completion, 1-5 rating, ease of use, likes, problems, requested features, and additional feedback. Set its URL in `VITE_FEEDBACK_FORM_URL`.
 
+The complete questionnaire and collection guidance are in [`docs/feedback-form.md`](docs/feedback-form.md).
+
 Only after real responses exist:
 
 - Export a privacy-safe workbook to `docs/user-feedback.xlsx`.
 - Calculate real results in `docs/feedback-analysis.md`.
 - Store explorer links and screenshots in `docs/analytics/`.
 - Record each implemented improvement with a real commit link.
+
+Use [`docs/product-improvements.md`](docs/product-improvements.md) for the feedback iteration log.
 
 ## Growth strategy
 
@@ -57,6 +60,8 @@ Acquire early testers through Midnight developer communities, university blockch
 ## Pitch deck and demo
 
 The 12-slide outline is in `docs/pitch-deck/README.md`. Record the actual deployed flow, including a real Lace connection and real Preprod transaction, before adding a demo URL here. Do not publish a fake transaction or placeholder as completed evidence.
+
+The recording checklist is in [`docs/demo-script.md`](docs/demo-script.md), and verified metrics belong in [`docs/analytics/evidence-log.md`](docs/analytics/evidence-log.md).
 
 ## Environment variables
 
@@ -86,7 +91,7 @@ npm run build
 npm test
 ```
 
-The current workspace could not run npm during scaffolding because the local npm invocation was canceled. Re-run the commands once Node/npm is available.
+The project has been validated locally with the commands above. Live wallet and contract validation still requires the configured Midnight SDK adapter and Preprod environment.
 
 ## Level 5 evidence checklist
 
